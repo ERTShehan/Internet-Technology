@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Execises 4</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 500px; text-align: left">
+      <tr style="height: 40px">
+        <td colspan="4">Personal Information</td>
+      </tr>
+      <tr style="height: 40px">
+        <td>Name:</td>
+        <td colspan="3"><input type="text" placeholder="Enter name here" /></td>
+      </tr>
+      <tr style="height: 40px">
+        <td>Age</td>
+        <td colspan="3"><input type="number" value="18" /></td>
+      </tr>
+      <tr style="height: 40px">
+        <td rowspan="3">Address</td>
+        <td>Street:</td>
+        <td colspan="2"><input type="text" placeholder="Street" /></td>
+      </tr>
+      <tr style="height: 40px">
+        <td>City:</td>
+        <td colspan="2"><input type="text" placeholder="City" /></td>
+      </tr>
+      <tr style="height: 40px">
+        <td>Zip code:</td>
+        <td colspan="2"><input type="text" placeholder="Zip code" /></td>
+      </tr>
+      <tr style="height: 40px">
+        <td colspan="4">Additional Information</td>
+      </tr>
+      <tr style="height: 40px">
+        <td colspan="4">
+          <textarea name="message" id="message" rows="6" cols="80"></textarea>
+        </td>
+      </tr>
+      <tr style="height: 40px">
+        <td colspan="4"><button>Submit</button></td>
+      </tr>
+    </table>
+  </body>
+</html>
